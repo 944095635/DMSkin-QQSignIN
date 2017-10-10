@@ -1,0 +1,17 @@
+D:\桌面\Work\QQL\QQL\bin\Debug\QQL.exe.config
+D:\桌面\Work\QQL\QQL\bin\Debug\QQL.exe
+D:\桌面\Work\QQL\QQL\bin\Debug\QQL.pdb
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.csprojResolveAssemblyReference.cache
+D:\桌面\Work\QQL\QQL\obj\Debug\MainWindow.g.cs
+D:\桌面\Work\QQL\QQL\obj\Debug\App.g.cs
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL_MarkupCompile.cache
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL_MarkupCompile.lref
+D:\桌面\Work\QQL\QQL\obj\Debug\MainWindow.baml
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.g.resources
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.Properties.Resources.resources
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.csproj.GenerateResource.Cache
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.csproj.CoreCompileInputs.cache
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.exe
+D:\桌面\Work\QQL\QQL\obj\Debug\QQL.pdb
+D:\桌面\Work\QQL\QQL\obj\Debug\App.baml
+D:\桌面\Work\QQL\QQL\obj\Debug\Styles\DMSkin.baml
