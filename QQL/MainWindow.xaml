@@ -14,7 +14,7 @@ DMShowMin="True"
 DMShowMax="False" 
 DMShowClose="True" 
 DMWindowShadowSize="10" 
-DMWindowShadowColor="#FF383838" 
+DMWindowShadowColor="#FF999999" 
 DMSystemButtonSize="30"     
 DMSystemButtonForeground="#ffffffff" 
 DMSystemButtonHoverColor="#33000000" 
@@ -28,10 +28,10 @@ WindowStartupLocation="CenterScreen">
             <RowDefinition Height="182"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
-        <Border CornerRadius="3,3,0,0">
+        <Border>
             <Grid>
-                <Border CornerRadius="3,3,0,0">
-                    <Image gif:ImageBehavior.AnimatedSource="Images/back.gif" />
+                <Border>
+                    <Image gif:ImageBehavior.AnimatedSource="Images/back.gif" Stretch="Fill"  />
                 </Border>
                 <Image Source="Images/logo-banner.png" Stretch="None" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,15,0,0"></Image>
                 <Border Background="#00FFFFFF"></Border>
