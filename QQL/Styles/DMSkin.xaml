@@ -91,7 +91,12 @@
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type CheckBox}">
                     <StackPanel Orientation="Horizontal">
-                        <Image Name="img" Margin="0,1,0,0" Width="17" Height="17" Source="/Images/checkbox_tick_normal1.png"></Image>
+                        <Grid Width="17" Height="17" Margin="0,0,3,0">
+                            <Border Name="bd"  Margin="0,1,0,0"  Width="12" Height="12" BorderThickness="1" 
+                                    BorderBrush="Gray" HorizontalAlignment="Center" VerticalAlignment="Center"></Border>
+                            <Image Name="img" Visibility="Collapsed" Margin="0,1,0,0" Width="17" Height="17" Stretch="Fill" 
+                                   VerticalAlignment="Center" HorizontalAlignment="Center"></Image>
+                        </Grid>
                         <ContentPresenter VerticalAlignment="Center"></ContentPresenter>
                     </StackPanel>
                     <ControlTemplate.Triggers>
@@ -103,6 +108,7 @@
                             <Setter TargetName="img" Property="Source" Value="/Images/checkbox_tick_highlight1.png" />
                         </MultiTrigger>
                         <Trigger Property="IsChecked" Value="true">
+                            <Setter TargetName="img" Property="Visibility" Value="Visible" />
                             <Setter TargetName="img" Property="Source" Value="/Images/checkbox_tick_pushed1.png"/>
                         </Trigger>
                     </ControlTemplate.Triggers>

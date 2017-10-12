@@ -8,8 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/checkbox_tick_highlight1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/checkbox_tick_normal1.png")]
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/checkbox_tick_pushed1.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo-banner.png")]
 
 

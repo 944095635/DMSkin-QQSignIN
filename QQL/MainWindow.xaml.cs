@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DMSkin.WPF.Small;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,7 +19,7 @@ namespace QQL
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : DMSkinWindow
     {
         public MainWindow()
         {
@@ -27,7 +28,7 @@ namespace QQL
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            this.DragMove();
+            
         }
     }
 }
